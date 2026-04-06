@@ -652,9 +652,20 @@ footer {
   }
 }
 
+@media (max-width: 1920px) and (min-width: 1440px) {
+
+  .topicos {
+    min-height: 40vh;
+  }
+
+  .container-topicos {
+    max-width: 70%;
+  }
+}
+
 /* Ajustes específicos para resoluçöes entre 1440x900 e 1280x720 */
 
-@media (max-width: 1441px) and (min-width: 1279px) {
+@media (max-width: 1439px) and (min-width: 1279px) {
   .hero h1 {
     font-size: 4rem;
   }
@@ -685,6 +696,7 @@ footer {
     flex-wrap: wrap;
     width: 90%;
   }
+
 }
 
 /* Ajustes específicos para resoluçöes entre 769 e 1023 pixels (TABLET) */
